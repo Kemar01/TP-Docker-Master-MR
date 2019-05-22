@@ -1,0 +1,8 @@
+version: '3'
+services:
+  api_backend_url:
+    build: /delivery/TP/container2/Dockerfile
+    image: centos:latest
+  api_frontend_url:
+    build: /delivery/TP/container1/Dockerfile
+    image: centos:latest
